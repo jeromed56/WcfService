@@ -1,0 +1,7 @@
+D:\Practice Web\WcfService1\bin\WcfService1.dll.config
+D:\Practice Web\WcfService1\bin\WcfService1.dll
+D:\Practice Web\WcfService1\bin\WcfService1.pdb
+D:\Practice Web\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\Practice Web\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\Practice Web\WcfService1\obj\Debug\WcfService1.dll
+D:\Practice Web\WcfService1\obj\Debug\WcfService1.pdb
