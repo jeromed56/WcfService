@@ -14,7 +14,9 @@ namespace WcfService1
     {
 
         [OperationContract]
-        string GetStatus(int id,string name);
+        [WebInvoke(Method = "POST", UriTemplate = "GetStatus", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        //[WebInvoke(BodyStyle = WebMessageBodyStyle.Wrapped)]
+        Class1 GetStatus(int id,string name);
 
         [OperationContract]
         string GetData(int value);

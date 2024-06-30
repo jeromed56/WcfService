@@ -5,3 +5,13 @@ D:\Practice Web\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
 D:\Practice Web\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
 D:\Practice Web\WcfService1\obj\Debug\WcfService1.dll
 D:\Practice Web\WcfService1\obj\Debug\WcfService1.pdb
+D:\GITHUB\WcfService\WcfService1\bin\WcfService1.dll.config
+D:\GITHUB\WcfService\WcfService1\bin\WcfService1.dll
+D:\GITHUB\WcfService\WcfService1\bin\WcfService1.pdb
+D:\GITHUB\WcfService\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+D:\GITHUB\WcfService\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+D:\GITHUB\WcfService\WcfService1\obj\Debug\WcfService1.dll
+D:\GITHUB\WcfService\WcfService1\obj\Debug\WcfService1.pdb
+D:\GITHUB\WcfService\WcfService1\bin\Newtonsoft.Json.dll
+D:\GITHUB\WcfService\WcfService1\bin\Newtonsoft.Json.xml
+D:\GITHUB\WcfService\WcfService1\obj\Debug\WcfServi.806E2312.Up2Date

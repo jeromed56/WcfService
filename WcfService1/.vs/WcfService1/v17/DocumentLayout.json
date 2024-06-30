@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Practice Web\\WcfService1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\GITHUB\\WcfService\\WcfService1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|D:\\GITHUB\\WcfService\\WcfService1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|solutionrelative:service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|d:\\github\\wcfservice\\wcfservice1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|solutionrelative:iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "Service1.svc.cs",
+              "ToolTip": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
+              "RelativeToolTip": "Service1.svc.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:22:14.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IService1.cs",
+              "DocumentMoniker": "D:\\GITHUB\\WcfService\\WcfService1\\IService1.cs",
+              "RelativeDocumentMoniker": "IService1.cs",
+              "ToolTip": "D:\\GITHUB\\WcfService\\WcfService1\\IService1.cs",
+              "RelativeToolTip": "IService1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBAAAAC3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T13:21:43.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

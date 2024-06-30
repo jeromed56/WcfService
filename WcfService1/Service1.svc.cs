@@ -1,10 +1,14 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Dispatcher;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Web.Script.Services;
 
 namespace WcfService1
 {
@@ -30,10 +34,23 @@ namespace WcfService1
             return composite;
         }
 
-        [WebInvoke(BodyStyle =WebMessageBodyStyle.Wrapped)]
-        public string GetStatus(int id, string name)
+        [WebInvoke(Method = "POST", UriTemplate = "GetStatus", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        public Class1 GetStatus(int id, string name)
         {
-            return String.Format("ID :{0} Name :{1}", id, name);
+            Class1 obj = new Class1()
+            {
+                id=id,name=name
+            };
+
+            return obj;
+             //return  JsonConvert.SerializeObject(obj);
+            // return String.Format("ID :{0} Name :{1}", id, name);
         }
+    }
+
+    public class Class1
+    {
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }
