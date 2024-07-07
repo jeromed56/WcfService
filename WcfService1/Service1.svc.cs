@@ -34,7 +34,7 @@ namespace WcfService1
             return composite;
         }
 
-        [WebInvoke(Method = "POST", UriTemplate = "GetStatus", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        //[WebInvoke(Method = "POST", UriTemplate = "GetStatus", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         public Class1 GetStatus(int id, string name)
         {
             Class1 obj = new Class1()
@@ -46,11 +46,25 @@ namespace WcfService1
              //return  JsonConvert.SerializeObject(obj);
             // return String.Format("ID :{0} Name :{1}", id, name);
         }
+
+       // [WebInvoke(Method = "POST", UriTemplate = "GetStatus1", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Xml, RequestFormat = WebMessageFormat.Xml)]
+        public Class1 GetStatus1(Class1 cl)
+        {
+            if (cl == null)
+                return new Class1() { id = 0, name = "Dummy" };
+            
+    
+            return cl;
+
+            //Class1 obj = new Class1()
+            //{
+            //    id = id,
+            //    name = name
+            //};
+
+            //return obj;
+        }
     }
 
-    public class Class1
-    {
-        public int id { get; set; }
-        public string name { get; set; }
-    }
+    
 }

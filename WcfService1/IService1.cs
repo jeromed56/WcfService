@@ -19,6 +19,10 @@ namespace WcfService1
         Class1 GetStatus(int id,string name);
 
         [OperationContract]
+        [WebInvoke(Method = "POST", UriTemplate = "GetStatus1", BodyStyle = WebMessageBodyStyle.Bare, ResponseFormat = WebMessageFormat.Xml, RequestFormat = WebMessageFormat.Xml)]
+        Class1 GetStatus1(Class1 cl);
+
+        [OperationContract]
         string GetData(int value);
 
         [OperationContract]
@@ -26,7 +30,6 @@ namespace WcfService1
 
         // TODO: Add your service operations here
     }
-
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
     [DataContract]
@@ -48,5 +51,14 @@ namespace WcfService1
             get { return stringValue; }
             set { stringValue = value; }
         }
+    }
+
+    [DataContract (Namespace = "http://tempuri.org/")]
+    public class Class1
+    {
+        [DataMember]
+        public int id { get; set; }
+        [DataMember]
+        public string name { get; set; }
     }
 }

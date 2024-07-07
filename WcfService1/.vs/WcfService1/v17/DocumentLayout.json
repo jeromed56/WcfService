@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "D:\\GITHUB\\WcfService\\WcfService1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|D:\\GITHUB\\WcfService\\WcfService1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|solutionrelative:service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD8F2762-2B19-4EB9-9445-9097AC9E4BE4}|..\\ConsoleApp1\\ConsoleApp1.csproj|d:\\github\\wcfservice\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|d:\\github\\wcfservice\\wcfservice1\\iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|solutionrelative:iservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|D:\\GITHUB\\WcfService\\WcfService1\\service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A76B42-8496-4F2C-B4E4-D6C2420AFDE0}|WcfService1.csproj|solutionrelative:service1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +26,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Service1.svc.cs",
-              "DocumentMoniker": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
-              "RelativeDocumentMoniker": "Service1.svc.cs",
-              "ToolTip": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
-              "RelativeToolTip": "Service1.svc.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwCQAAAAzAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GITHUB\\WcfService\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\GITHUB\\WcfService\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T13:22:14.318Z",
+              "WhenOpened": "2024-07-07T12:45:52.469Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +44,22 @@
               "RelativeDocumentMoniker": "IService1.cs",
               "ToolTip": "D:\\GITHUB\\WcfService\\WcfService1\\IService1.cs",
               "RelativeToolTip": "IService1.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBAAAAC3AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAADoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T13:21:43.793Z",
+              "WhenOpened": "2024-07-07T06:20:34.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service1.svc.cs",
+              "DocumentMoniker": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
+              "RelativeDocumentMoniker": "Service1.svc.cs",
+              "ToolTip": "D:\\GITHUB\\WcfService\\WcfService1\\Service1.svc.cs",
+              "RelativeToolTip": "Service1.svc.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowDoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T06:12:02.851Z",
               "EditorCaption": ""
             }
           ]
